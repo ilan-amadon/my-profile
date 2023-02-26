@@ -1,0 +1,99 @@
+/* Colors and fonts */
+body{
+	background: rgb(233, 232, 232);
+	color: rgb(32, 38, 46);
+	font-family:Helvetica;
+	font-size: 20px;
+} 
+
+h1 {
+	color:rgb(58, 152, 185);
+	font-size: 45px;
+	font-family: 'PT Serif', serif;
+} 
+
+h2 {
+	color:rgb(58, 152, 185) ;
+	font-size: 35px;
+	font-family: 'Tajawal', sans-serif;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color:rgb(227, 132, 255);
+	font-weight: bold;
+}
+a:hover {
+	color: rgb(32, 38, 46);
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width:760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgb(58, 152, 185) ;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+
+.list-horizontal i:hover{
+	color: rgb(58, 152, 185) ;
+}
+
+
+
+
+
+
+
